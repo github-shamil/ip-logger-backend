@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ip-logger
+    env: php
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true
